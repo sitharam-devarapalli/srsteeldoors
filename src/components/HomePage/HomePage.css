@@ -1,0 +1,600 @@
+.sr-steel-features-wrapper {
+  background-color: #000;
+  color: white;
+}
+
+.sr-steel-features-heading h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.sr-steel-features-heading p, .pppp {
+  font-size: 16px;
+  color: #726f6f !important; 
+}
+
+.sr-steel-features-card {
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 12px;
+  padding: 20px 0;
+  height: 200px;
+  transition: transform 0.3s;
+}
+.sr-steel-features-card:hover {
+  transform: translateY(-5px);
+}
+
+.sr-steel-features-icon {
+  font-size: 32px;
+  color: #00bcd4;
+}
+
+.sr-steel-features-experience {
+  margin-top: 60px;
+}
+
+.sr-steel-features-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.sr-steel-features-img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+
+.sr-steel-features-stats h4 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.sr-steel-features-stats p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.sr-steel-features-doors {
+  border-radius: 0px;
+}
+
+
+.sr-steel-features-counters {
+  margin-top: 0px;
+  background: #262626;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.sr-steel-features-counters h4 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.sr-steel-features-counters p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+
+
+
+.sr-steel-Furniture-wrapper {
+  background-color: #000;
+  color: #fff;
+}
+
+.sr-steel-Furniture-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: start;
+}
+
+.sr-steel-Furniture-description {
+  font-size: 1rem;
+  color: #ccc;
+  text-align: start;
+}
+
+.sr-steel-Furniture-text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.sr-steel-Furniture-half {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  /* border-radius: 8px; */
+}
+.sr-steel-Furniture-half11{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.sr-steel-Furniture-full {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  /* border-radius: 8px; */
+}
+
+
+.sr-steel-Mediocrity-wrapper {
+  background-color: #000;
+  color: #fff;
+}
+
+.sr-steel-Mediocrity-heading {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.sr-steel-Mediocrity-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sr-steel-Mediocrity-description {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Fixed height for left main image */
+.sr-steel-Mediocrity-left-img img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Fixed height for right side images */
+.sr-steel-Mediocrity-subimg {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+
+/* ===== Background Wrapper ===== */
+.sr-steels-carousel-wrapper {
+  background-image: url('../../assests/Slider-1.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Optional Overlay ===== */
+.sr-steels-carousel-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Row Settings ===== */
+.sr-steels-carousel-row {
+  min-height: 100vh;
+}
+
+/* ===== Content Box ===== */
+.sr-steels-carousel-content {
+  color: #fff;
+}
+
+.sr-steels-carousel-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sr-steels-carousel-description {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.sr-steels-carousel-button {
+  background-color: #444;
+  color: #fff;
+  padding: 12px 30px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.sr-steels-carousel-button:hover {
+  background-color: #222;
+}
+
+/* ===== Responsive Styles ===== */
+@media (max-width: 991.98px) {
+  .sr-steels-carousel-title {
+    font-size: 2.5rem;
+  }
+
+  .sr-steels-carousel-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .sr-steels-carousel-title {
+    font-size: 2rem;
+  }
+
+  .sr-steels-carousel-description {
+    font-size: 0.9rem;
+  }
+
+  .sr-steels-carousel-button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+
+/* Tablet view */
+@media (max-width: 768px) {
+  .sr-steel-features-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .sr-steel-features-heading h2 {
+    font-size: 26px;
+  }
+
+  .sr-steel-features-heading p, .pppp {
+    font-size: 14px;
+  }
+
+  .sr-steel-features-card {
+    height: auto; /* let cards adjust height */
+    padding: 15px 10px;
+  }
+
+  .sr-steel-features-icon {
+    font-size: 28px;
+  }
+
+  .sr-steel-features-icon-wrapper {
+    width: 70px;
+    height: 70px;
+  }
+
+  .sr-steel-features-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sr-steel-features-stats h4 {
+    font-size: 20px;
+  }
+
+  .sr-steel-features-counters h4 {
+    font-size: 24px;
+  }
+    .sr-steel-Furniture-wrapper {
+    padding: 20px;
+  }
+
+  .sr-steel-Furniture-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .sr-steel-Furniture-description {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .sr-steel-Furniture-text-col {
+    justify-content: flex-start;
+  }
+
+  .sr-steel-Furniture-half,
+  .sr-steel-Furniture-half11,
+  .sr-steel-Furniture-full {
+    height: auto; /* let images scale with width */
+    max-height: 250px;
+    margin-bottom: 20px;
+  }
+    .sr-steel-Mediocrity-left-img img {
+    height: 300px;
+  }
+
+  .sr-steel-Mediocrity-subimg {
+    height: 150px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .sr-steel-features-wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .sr-steel-features-heading h2 {
+    font-size: 22px;
+  }
+
+  .sr-steel-features-heading p, .pppp {
+    font-size: 12px;
+  }
+
+  .sr-steel-features-card {
+    height: auto;
+    padding: 12px 8px;
+  }
+
+  .sr-steel-features-icon {
+    font-size: 24px;
+  }
+
+  .sr-steel-features-icon-wrapper {
+    width: 60px;
+    height: 60px;
+  }
+
+  .sr-steel-features-img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .sr-steel-features-stats h4 {
+    font-size: 18px;
+  }
+
+  .sr-steel-features-counters h4 {
+    font-size: 20px;
+  }
+    .sr-steel-Furniture-wrapper {
+    padding: 15px 10px;
+  }
+
+  .sr-steel-Furniture-title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .sr-steel-Furniture-description {
+    font-size: 0.85rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .sr-steel-Furniture-text-col {
+    justify-content: flex-start;
+  }
+
+  .sr-steel-Furniture-half,
+  .sr-steel-Furniture-half11,
+  .sr-steel-Furniture-full {
+    height: auto;
+    max-height: 200px;
+    margin-bottom: 15px;
+  }
+
+}
+
+
+/* our product section */
+.sr-home-product-section {
+  background-color: #000;
+}
+
+.sr-home-product-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  height: 400px;
+  cursor: pointer;
+}
+
+.sr-home-product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.sr-home-product-card:hover img {
+  transform: scale(1.05);
+}
+
+.sr-home-product-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.4s ease;
+}
+
+.sr-home-product-card:hover .sr-home-product-overlay {
+  opacity: 1;
+}
+
+.sr-home-product-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: transparent;
+  transition: all 0.5s ease;
+}
+
+.sr-home-product-number {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: auto;
+  display: block;
+}
+
+.sr-home-product-content h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.sr-home-product-content p {
+  font-size: 14px;
+  color: #ccc;
+  margin: 5px 0 15px;
+}
+
+.sr-home-product-btn {
+  color: #fff;
+  font-weight: 600;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  background: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+  display: flex;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.sr-home-product-card:hover .sr-home-product-btn {
+  opacity: 1;
+  transform: translateY(0);
+  color: #fff !important;
+}
+
+.sr-home-product-btn span {
+  margin-left: 5px;
+}
+.sr-home-product-heading {
+  font-size: 32px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.sr-home-product-subheading {
+  font-size: 16px;
+  color: #f4f4f4;
+  max-width: 600px;
+  margin: 10px auto 0;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .sr-home-product-heading {
+    font-size: 28px;
+  }
+
+  .sr-home-product-subheading {
+    font-size: 15px;
+    max-width: 100%;
+    margin: 8px auto;
+  }
+
+  .sr-home-product-card {
+    height: 350px;
+  }
+
+  .sr-home-product-content h5 {
+    font-size: 16px;
+  }
+
+  .sr-home-product-content p {
+    font-size: 13px;
+  }
+
+  .sr-home-product-number {
+    font-size: 16px;
+  }
+}
+
+/* Responsive for mobile screens (less than 767px) */
+@media (max-width: 767px) {
+  .sr-home-product-heading {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .sr-home-product-subheading {
+    font-size: 14px;
+    text-align: center;
+    margin: 6px auto;
+  }
+
+  .sr-home-product-card {
+    height: 320px;
+  }
+
+  .sr-home-product-content {
+    padding: 15px;
+  }
+
+  .sr-home-product-content h5 {
+    font-size: 15px;
+  }
+
+  .sr-home-product-content p {
+    font-size: 12px;
+  }
+
+  .sr-home-product-btn {
+    font-size: 14px;
+  }
+}
+
+/* planning product video css  */
+.sr-home-video-wrapper {
+  background-color: #000;
+  text-align: center;
+}
+
+.sr-home-video-box {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.sr-home-video-element {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

@@ -1,0 +1,275 @@
+.sr-steel-product-wrapper {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.sr-steel-product-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.sr-steel-product-subtitle {
+  font-size: 1rem;
+  color: #ccc;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.sr-steel-product-card {
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s;
+  border: none;
+  border-radius: 0; 
+}
+
+
+.sr-steel-product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* --- Top Image Section --- */
+.sr-steel-product-img-wrapper {
+  background-color: #fff;
+  position: relative;
+}
+
+.sr-steel-product-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+/* --- Arrow Button --- */
+.sr-steel-product-arrow {
+  position: absolute !important;
+  bottom: 0% !important;
+  right: 0 !important;
+  background-color: #003b70 !important;
+  color: #fff !important;
+  border-radius: 30px 0 0 0 !important;
+  padding: 8px 12px !important;
+  font-size: 18px !important;
+  border: none !important;
+}
+
+/* --- Bottom Black Content Section --- */
+.sr-steel-product-card .card-body {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 10px;
+}
+
+.sr-steel-product-description {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.sr-steel-product-modal-body {
+  padding: 20px;
+}
+
+.sr-steel-product-modal-flex {
+  display: flex;
+  gap: 0px;
+  align-items: flex-start;
+}
+
+.sr-steel-product-modal-img {
+  flex: 1 1 45%;
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.sr-steel-product-modal-text-wrapper {
+  flex: 1 1 45%;
+  text-align: left;
+  padding: 5px;
+}
+
+.sr-steel-product-modal-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.sr-steel-product-modal-text {
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.sr-steel-product-modal-header {
+  border: none;
+  padding-bottom: 0;
+}
+
+.sr-steel-product-modal .modal-dialog {
+  max-width: 800px; /* or 900px if needed */
+  width: 100%;
+}
+.sr-steel-product-modal-text p {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+.sr-steel-product-modal-text strong {
+  color: #000;
+}
+
+
+
+
+.sr-steel-hero-quote-wrapper {
+  background-color: #000; /* black background */
+  padding: 0px;
+  padding-bottom:50px;
+}
+
+.sr-steel-hero-quote-row {
+  min-height: 100vh;
+}
+
+.sr-steel-hero-quote-image-col {
+  padding: 0;
+}
+
+.sr-steel-hero-quote-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sr-steel-hero-quote-text-col {
+  background-color: #000;
+  padding: 40px 20px;
+}
+
+.sr-steel-hero-quote-content {
+  max-width: 500px;
+}
+
+.sr-steel-hero-quote-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.sr-steel-hero-quote-description {
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+  color: #ccc; 
+}
+
+.sr-steel-hero-quote-button {
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+/* ------------------- Responsive CSS ------------------- */
+
+/* For tablets: 768px - 991px */
+@media (max-width: 991px) and (min-width: 768px) {
+  .sr-steel-product-img {
+    height: 250px;
+  }
+
+  .sr-steel-product-title {
+    font-size: 16px;
+  }
+
+  .sr-steel-product-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+  }
+
+  .sr-steel-hero-quote-title {
+    font-size: 2rem;
+  }
+.sr-steel-product-description{
+  font-size: 11px;
+}
+  .sr-steel-hero-quote-description {
+    font-size: 0.85rem;
+  }
+
+  .sr-steel-product-modal .modal-dialog {
+    max-width: 90%;
+  }
+}
+
+/* For mobile: max-width 767px */
+@media (max-width: 767px) {
+  .sr-steel-product-img {
+    height: 250px;
+    width: 80%;
+  }
+
+  .sr-steel-product-title {
+    font-size: 20px;
+  }
+
+  .sr-steel-product-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .sr-steel-product-card .card-body {
+    padding: 15px 8px;
+  }
+
+  .sr-steel-product-description {
+    font-size: 13px;
+  }
+
+  .sr-steel-product-arrow {
+    font-size: 14px !important;
+    padding: 6px 10px !important;
+  }
+
+  .sr-steel-product-modal-flex {
+    flex-direction: column;
+  }
+
+  .sr-steel-product-modal-text-wrapper {
+    padding: 10px 0 0 0;
+  }
+
+  .sr-steel-product-modal-title {
+    font-size: 1.2rem;
+  }
+
+  .sr-steel-product-modal-text {
+    font-size: 13px;
+  }
+
+  .sr-steel-hero-quote-row {
+    flex-direction: column-reverse;
+  }
+
+  .sr-steel-hero-quote-content {
+    max-width: 100%;
+  }
+
+  .sr-steel-hero-quote-title {
+    font-size: 1.8rem;
+  }
+
+  .sr-steel-hero-quote-description {
+    font-size: 0.85rem;
+  }
+
+  .sr-steel-hero-quote-button {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
