@@ -104,9 +104,9 @@ const Product = () => {
           </Container>
         </div>
 
-        <div className="sr-steel-product-heading text-center">
+        <div className="sr-steel-product-headings text-center">
           <h2>
-            <strong className="text-white">The Best Features We Provide</strong>
+            <strong className="text-white sr-steel-product-headingsss">The Best Features We Provide</strong>
           </h2>
           <p className="sr-steel-product-subtitle">
             we always provide the latest products and keep up with the times in

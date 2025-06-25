@@ -116,7 +116,7 @@
   width: 100%;
 }
 .sr-steel-product-modal-text p {
-  margin-bottom: 8px;
+  margin-bottom: 8px; 
   font-size: 14px;
   color: #333;
   line-height: 1.6;
@@ -125,7 +125,9 @@
   color: #000;
 }
 
-
+.sr-steel-product-headings h2{
+    text-align: center !important;
+}
 
 
 .sr-steel-hero-quote-wrapper {
