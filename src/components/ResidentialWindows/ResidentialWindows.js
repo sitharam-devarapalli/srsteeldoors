@@ -28,7 +28,7 @@ const products = [
         description:
             "Designed to simplify and facilitate meetings with your clients.",
         details: `Grill Door Specifications\nMaterial: Galvanised Steel\nFinish: Powder coating\nAvailable colors: Wide range\nDoor Frame:\nSheet thickness: 1.2 mm\nFrame size (thickness): 100 mm x 58 mm\nDoor Shutter:\nSheet thickness: 0.8 mm\nShutter size (thickness): 46 mm`,
-        popupImage: require("../../assests/Residential Window-1.jpg"),
+        popupImage: require("../../assests/Residential Window-2.jpg"),
     },
     {
         id: 1,
@@ -37,7 +37,7 @@ const products = [
         description:
             "Designed to simplify and facilitate meetings with your clients.",
         details: `Grill Door Specifications\nMaterial: Galvanised Steel\nFinish: Powder coating\nAvailable colors: Wide range\nDoor Frame:\nSheet thickness: 1.2 mm\nFrame size (thickness): 100 mm x 58 mm\nDoor Shutter:\nSheet thickness: 0.8 mm\nShutter size (thickness): 46 mm`,
-        popupImage: require("../../assests/Residential Window-1.jpg"),
+        popupImage: require("../../assests/Residential Window-3.jpg"),
     },
     {
         id: 1,
@@ -46,7 +46,7 @@ const products = [
         description:
             "Designed to simplify and facilitate meetings with your clients.",
         details: `Grill Door Specifications\nMaterial: Galvanised Steel\nFinish: Powder coating\nAvailable colors: Wide range\nDoor Frame:\nSheet thickness: 1.2 mm\nFrame size (thickness): 100 mm x 58 mm\nDoor Shutter:\nSheet thickness: 0.8 mm\nShutter size (thickness): 46 mm`,
-        popupImage: require("../../assests/Residential Window-1.jpg"),
+        popupImage: require("../../assests/Residential Window-4.jpg"),
     },
 ];
 
@@ -84,7 +84,7 @@ const Product = () => {
                             className="sr-steel-product-card-col"
                         >
                             <Card className="sr-steel-product-card text-center">
-                                <div className="sr-steel-product-img-wrapper">
+                                <div className="sr-steel-product-img-wrapper" onClick={() => handleShow(product)}>
                                     <Card.Img
                                         variant="top"
                                         src={product.image}
@@ -93,7 +93,6 @@ const Product = () => {
                                     <Button
                                         variant="link"
                                         className="sr-steel-product-arrow"
-                                        onClick={() => handleShow(product)}
                                     >
                                         <FaArrowRight />
                                     </Button>

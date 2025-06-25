@@ -84,7 +84,7 @@ const Product = () => {
                             className="sr-steel-product-card-col"
                         >
                             <Card className="sr-steel-product-card text-center">
-                                <div className="sr-steel-product-img-wrapper">
+                                <div className="sr-steel-product-img-wrapper" onClick={() => handleShow(product)}>
                                     <Card.Img
                                         variant="top"
                                         src={product.image}
@@ -93,7 +93,6 @@ const Product = () => {
                                     <Button
                                         variant="link"
                                         className="sr-steel-product-arrow"
-                                        onClick={() => handleShow(product)}
                                     >
                                         <FaArrowRight />
                                     </Button>
