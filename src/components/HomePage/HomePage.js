@@ -210,7 +210,7 @@ const HomePage = () => {
                     className="sr-steel-features-img"
                   />
                 </div>
-                <Card.Title>Client Satisfied</Card.Title>
+                <Card.Title>Client Satisfaction</Card.Title>
               </Card.Body>
             </Card>
           </Col>

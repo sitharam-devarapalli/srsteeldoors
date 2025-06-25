@@ -120,7 +120,7 @@ const Product = () => {
               md={3}
               sm={6}
               xs={12}
-              key={product.id}
+              key={product.id} 
               className="sr-steel-product-card-col"
             >
               <Card className="sr-steel-product-card text-center">
