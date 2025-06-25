@@ -3,10 +3,10 @@ import { Container, Row, Col, Card, Button, Modal } from "react-bootstrap";
 import "./CommercialDoors.css";
 import { FaArrowRight } from "react-icons/fa";
 
-import productdoor1 from "../../assests/product-door-1.png";
-import productdoor2 from "../../assests/product-door-2.png";
-import productdoor3 from "../../assests/product-door-3.png";
-import productdoor4 from "../../assests/product-door-4.png";
+import productdoor1 from "../../assests/Commercial-Doors-3.jpg";
+import productdoor2 from "../../assests/Commercial-Doors-2.jpg";
+import productdoor3 from "../../assests/commercial-doors-1.jpg";
+// import productdoor4 from "../../assests/product-door-4.png";
 
 import Residential from '../../assests/Commercial Doors-banners.jpg';
 
@@ -14,39 +14,30 @@ import Residential from '../../assests/Commercial Doors-banners.jpg';
 const products = [
     {
         id: 1,
-        name: "GOLDEN OAK",
+        name: "Shopping Mall Glass Doors",
         image: productdoor1,
         description:
             "Designed to simplify and facilitate meetings with your clients.",
         details: `Grill Door Specifications\nMaterial: Galvanised Steel\nFinish: Powder coating\nAvailable colors: Wide range\nDoor Frame:\nSheet thickness: 1.2 mm\nFrame size (thickness): 100 mm x 58 mm\nDoor Shutter:\nSheet thickness: 0.8 mm\nShutter size (thickness): 46 mm`,
-        popupImage: require("../../assests/product-door-1.png"),
+        popupImage: require("../../assests/Commercial-Doors-3.jpg"),
     },
     {
         id: 1,
-        name: "RED MAHOGANY",
+        name: "Fire Rated Doors",
         image: productdoor2,
         description:
             "Designed to simplify and facilitate meetings with your clients.",
         details: `Grill Door Specifications\nMaterial: Galvanised Steel\nFinish: Powder coating\nAvailable colors: Wide range\nDoor Frame:\nSheet thickness: 1.2 mm\nFrame size (thickness): 100 mm x 58 mm\nDoor Shutter:\nSheet thickness: 0.8 mm\nShutter size (thickness): 46 mm`,
-        popupImage: require("../../assests/product-door-2.png"),
+        popupImage: require("../../assests/Commercial-Doors-2.jpg"),
     },
     {
         id: 1,
-        name: "ANTIQUE CHERRY",
+        name: "Commercial Acoustic",
         image: productdoor3,
         description:
             "Designed to simplify and facilitate meetings with your clients.",
         details: `Grill Door Specifications\nMaterial: Galvanised Steel\nFinish: Powder coating\nAvailable colors: Wide range\nDoor Frame:\nSheet thickness: 1.2 mm\nFrame size (thickness): 100 mm x 58 mm\nDoor Shutter:\nSheet thickness: 0.8 mm\nShutter size (thickness): 46 mm`,
-        popupImage: require("../../assests/product-door-3.png"),
-    },
-    {
-        id: 1,
-        name: "WHITE MAPLE",
-        image: productdoor4,
-        description:
-            "Designed to simplify and facilitate meetings with your clients.",
-        details: `Grill Door Specifications\nMaterial: Galvanised Steel\nFinish: Powder coating\nAvailable colors: Wide range\nDoor Frame:\nSheet thickness: 1.2 mm\nFrame size (thickness): 100 mm x 58 mm\nDoor Shutter:\nSheet thickness: 0.8 mm\nShutter size (thickness): 46 mm`,
-        popupImage: require("../../assests/product-door-4.png"),
+        popupImage: require("../../assests/commercial-doors-1.jpg"),
     },
 ];
 

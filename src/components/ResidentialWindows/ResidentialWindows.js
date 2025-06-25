@@ -3,10 +3,10 @@ import { Container, Row, Col, Card, Button, Modal } from "react-bootstrap";
 import "./ResidentialWindows.css";
 import { FaArrowRight } from "react-icons/fa";
 
-import productdoor1 from "../../assests/product-door-1.png";
-import productdoor2 from "../../assests/product-door-2.png";
-import productdoor3 from "../../assests/product-door-3.png";
-import productdoor4 from "../../assests/product-door-4.png";
+import productdoor1 from "../../assests/Residential Window-1.jpg";
+import productdoor2 from "../../assests/Residential Window-2.jpg";
+import productdoor3 from "../../assests/Residential Window-3.jpg";
+import productdoor4 from "../../assests/Residential Window-4.jpg";
 
 import Residential from '../../assests/Residential Windows-banners.jpg';
 
@@ -14,12 +14,12 @@ import Residential from '../../assests/Residential Windows-banners.jpg';
 const products = [
     {
         id: 1,
-        name: "GOLDEN OAK",
+        name: "Breeze Casa",
         image: productdoor1,
         description:
             "Designed to simplify and facilitate meetings with your clients.",
         details: `Grill Door Specifications\nMaterial: Galvanised Steel\nFinish: Powder coating\nAvailable colors: Wide range\nDoor Frame:\nSheet thickness: 1.2 mm\nFrame size (thickness): 100 mm x 58 mm\nDoor Shutter:\nSheet thickness: 0.8 mm\nShutter size (thickness): 46 mm`,
-        popupImage: require("../../assests/product-door-1.png"),
+        popupImage: require("../../assests/Residential Window-1.jpg"),
     },
     {
         id: 1,
@@ -28,25 +28,25 @@ const products = [
         description:
             "Designed to simplify and facilitate meetings with your clients.",
         details: `Grill Door Specifications\nMaterial: Galvanised Steel\nFinish: Powder coating\nAvailable colors: Wide range\nDoor Frame:\nSheet thickness: 1.2 mm\nFrame size (thickness): 100 mm x 58 mm\nDoor Shutter:\nSheet thickness: 0.8 mm\nShutter size (thickness): 46 mm`,
-        popupImage: require("../../assests/product-door-2.png"),
+        popupImage: require("../../assests/Residential Window-1.jpg"),
     },
     {
         id: 1,
-        name: "ANTIQUE CHERRY",
+        name: "Steel Windows",
         image: productdoor3,
         description:
             "Designed to simplify and facilitate meetings with your clients.",
         details: `Grill Door Specifications\nMaterial: Galvanised Steel\nFinish: Powder coating\nAvailable colors: Wide range\nDoor Frame:\nSheet thickness: 1.2 mm\nFrame size (thickness): 100 mm x 58 mm\nDoor Shutter:\nSheet thickness: 0.8 mm\nShutter size (thickness): 46 mm`,
-        popupImage: require("../../assests/product-door-3.png"),
+        popupImage: require("../../assests/Residential Window-1.jpg"),
     },
     {
         id: 1,
-        name: "WHITE MAPLE",
+        name: "Breeze Casa",
         image: productdoor4,
         description:
             "Designed to simplify and facilitate meetings with your clients.",
         details: `Grill Door Specifications\nMaterial: Galvanised Steel\nFinish: Powder coating\nAvailable colors: Wide range\nDoor Frame:\nSheet thickness: 1.2 mm\nFrame size (thickness): 100 mm x 58 mm\nDoor Shutter:\nSheet thickness: 0.8 mm\nShutter size (thickness): 46 mm`,
-        popupImage: require("../../assests/product-door-4.png"),
+        popupImage: require("../../assests/Residential Window-1.jpg"),
     },
 ];
 
@@ -143,7 +143,7 @@ const Product = () => {
                                     })}
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                     )}
                 </Modal.Body>
             </Modal>

@@ -69,7 +69,9 @@ const ContactUs = () => {
           </Col>
           <Col md={4} sm={12} className="contact-page-info-item">
             <div className="contact-page-icon-wrapper"><FaPhoneAlt /></div>
-            <a href="tel:+1235235598" className="contact-page-info text-decoration-none">+91 9550232239</a>
+            <a href="tel:+919550232239" className="contact-page-info text-decoration-none" aria-label="Call us at 9550232239">
+              +91 9550232239
+            </a>
           </Col>
           <Col md={4} sm={12} className="contact-page-info-item">
             <div className="contact-page-icon-wrapper"><FaEnvelope /></div>

@@ -101,7 +101,7 @@
 .sr-steel-product-modal-text-wrapper {
   flex: 1 1 45%;
   text-align: left;
-  padding: 5px;
+  padding:0px 20px;
 }
 
 .sr-steel-product-modal-title {
