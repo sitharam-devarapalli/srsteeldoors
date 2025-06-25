@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button, Alert } from 'react-bootstrap';
 import contactBanner from '../../assests/contact-page-banner.jpg';
 import contactSidePic from '../../assests/contact-side-pic.jpg';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
 import './ContactUs.css';
 
 const ContactUs = () => {
@@ -63,20 +63,20 @@ const ContactUs = () => {
       {/* Contact Info Icons */}
       <Container className="my-5">
         <Row className="justify-content-center text-center contact-page-info-section">
-          <Col md={4} sm={12} className="contact-page-info-item">
+          <Col md={6} sm={12} className="contact-page-info-item">
             <div className="contact-page-icon-wrapper"><FaMapMarkerAlt /></div>
-            <span className="contact-page-info">RS NO. 247/1, NUZVID ROAD, Nunna, Vijayawada-521212</span>
+            <p className="contact-page-info">RS NO. 247/1, NUZVID ROAD, Nunna, Vijayawada-521212</p>
           </Col>
-          <Col md={4} sm={12} className="contact-page-info-item">
+          <Col md={6} sm={12} className="contact-page-info-item">
             <div className="contact-page-icon-wrapper"><FaPhoneAlt /></div>
             <a href="tel:+919550232239" className="contact-page-info text-decoration-none" aria-label="Call us at 9550232239">
               +91 9550232239
             </a>
           </Col>
-          <Col md={4} sm={12} className="contact-page-info-item">
+          {/* <Col md={4} sm={12} className="contact-page-info-item">
             <div className="contact-page-icon-wrapper"><FaEnvelope /></div>
             <a href="mailto:info@yoursite.com" className="contact-page-info text-decoration-none">sbreddyj@gmail.com</a>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
 

@@ -63,7 +63,7 @@ const Header = () => {
                 <NavDropdown.Item href="/residentialdoors">Residential Doors</NavDropdown.Item>
                 <NavDropdown.Item href="/residentialwindows">Residential Windows</NavDropdown.Item>
                 <NavDropdown.Item href="/commercialdoors">Commercial Doors</NavDropdown.Item>
-                <NavDropdown.Item href="/schoolfurniture">School Furniture</NavDropdown.Item>
+                {/* <NavDropdown.Item href="/schoolfurniture">School Furniture</NavDropdown.Item> */}
               </NavDropdown>
 
               <Nav.Link href="/gallery">Gallery</Nav.Link> 

@@ -16,7 +16,7 @@ const Footer = () => {
               <img src={logo} alt="Logo" className="sr-footer-logo" />
             </div>
             <p className="sr-footer-description">
-              Stay up to date with Dynacast and receive emails highlighting news, events, and innovative tools.
+              Stay up to date with Doors and receive emails highlighting news, events, and innovative tools.
             </p>
             <Button variant="primary" className="sr-footer-button">
               Contact <span className="ms-2">&rarr;</span>
@@ -29,7 +29,7 @@ const Footer = () => {
                   <li><Link to="/residentialdoors">Residential Doors</Link></li>
                   <li><Link to="/commercialdoors">Commercial Doors</Link></li>
                   <li><Link to="/residentialwindows">Residential Windows</Link></li>
-                  <li><Link to="/schoolfurniture">School Furniture</Link></li>
+                  {/* <li><Link to="/schoolfurniture">School Furniture</Link></li> */}
                   <li><Link to="/product">SR-Steel Doors</Link></li>
                 </ul>
               </Col>
